@@ -193,18 +193,32 @@ def smooth_knn_dist(distances, k, n_iter=64, local_connectivity=1.0, bandwidth=1
 
     mean_distances = np.mean(distances)
 
-    for i in range(distances.shape[0]):
+    for i in range(distances.shape[0]):  # For each sample point, i.e. each row in the distance matrix
         lo = 0.0
         hi = NPY_INFINITY
         mid = 1.0
 
         # TODO: This is very inefficient, but will do for now. FIXME
+
+        # First, compute the value of rho according to the value of local_connectivity
+        # This makes sure that the underlying manifold is locally connected by ensuring that at least
+        # local_connectivity neighbours have distance 0 to the sample point. In case that this value
+        # is not an integer, we interpolate linearly between the floor(local_connectivity) neighbor and the next one
+
+        # Take the array that is the row with the distances
         ith_distances = distances[i]
+        # Possibly shorter array only with non-zero distances
         non_zero_dists = ith_distances[ith_distances > 0.0]
+        # If there are more non-zero distances than local_connectivity:
         if non_zero_dists.shape[0] >= local_connectivity:
+            # Whole part of local_connectivity
             index = int(np.floor(local_connectivity))
+
+            # Decimal part of local_connectivity?
             interpolation = local_connectivity - index
-            if index > 0:
+            if index > 0: # If local_connectivity >= 1
+                # In function of the local_connectivity, pick as "minimum non-zero distance to neighbor
+                # maybe not the closest, but 2nd, 3rd...?
                 rho[i] = non_zero_dists[index - 1]
                 if interpolation > SMOOTH_K_TOLERANCE:
                     rho[i] += interpolation * (
@@ -212,11 +226,12 @@ def smooth_knn_dist(distances, k, n_iter=64, local_connectivity=1.0, bandwidth=1
                     )
             else:
                 rho[i] = interpolation * non_zero_dists[0]
-        elif non_zero_dists.shape[0] > 0:
+        elif non_zero_dists.shape[0] > 0: # fewer non-zero distances
             rho[i] = np.max(non_zero_dists)
 
+        # Binary search?
         for n in range(n_iter):
-
+            # we want the sum of the exp((dist - rho) / sigma) approx = log_2(k)
             psum = 0.0
             for j in range(1, distances.shape[1]):
                 d = distances[i, j] - rho[i]
@@ -238,14 +253,14 @@ def smooth_knn_dist(distances, k, n_iter=64, local_connectivity=1.0, bandwidth=1
                 else:
                     mid = (lo + hi) / 2.0
 
-        result[i] = mid
+        result[i] = mid  # binary-searched sigma
 
         # TODO: This is very inefficient, but will do for now. FIXME
         if rho[i] > 0.0:
             mean_ith_distances = np.mean(ith_distances)
             if result[i] < MIN_K_DIST_SCALE * mean_ith_distances:
                 result[i] = MIN_K_DIST_SCALE * mean_ith_distances
-        else:
+        else:  # can this ever happen? rho = 0 only happens if all distances are 0?????
             if result[i] < MIN_K_DIST_SCALE * mean_distances:
                 result[i] = MIN_K_DIST_SCALE * mean_distances
 
@@ -1062,8 +1077,15 @@ def simplicial_set_embedding(
         is turned on, this dictionary includes local radii in the original
         data (``rad_orig``) and in the embedding (``rad_emb``).
     """
+
+    # Makes sure sparse matrix format is "coo" (?)
     graph = graph.tocoo()
+
+    # In case there are repeated entries, that is, pairs (row, column) appear more than once
+    # in the coo representation, sum the values of all identical pairs
     graph.sum_duplicates()
+
+    # Number of vertices equal to the number of columns
     n_vertices = graph.shape[1]
 
     # For smaller datasets we can use more epochs
@@ -1082,14 +1104,19 @@ def simplicial_set_embedding(
     # If n_epoch is a list, get the maximum epoch to reach
     n_epochs_max = max(n_epochs) if isinstance(n_epochs, list) else n_epochs
 
+    # There is some "normalization" being done here in a way: according to the number
+    # of epochs, some weights are set to zero if they are too small. WHY??
     if n_epochs_max > 10:
         graph.data[graph.data < (graph.data.max() / float(n_epochs_max))] = 0.0
     else:
         graph.data[graph.data < (graph.data.max() / float(default_epochs))] = 0.0
 
+    # Deletes (row, col, value) when value = 0 in the coo matrix
     graph.eliminate_zeros()
 
-    if isinstance(init, str) and init == "random":
+    ## Type of initialisation
+
+    if isinstance(init, str) and init == "random": # Random
         embedding = random_state.uniform(
             low=-10.0, high=10.0, size=(graph.shape[0], n_components)
         ).astype(np.float32)
@@ -1115,7 +1142,7 @@ def simplicial_set_embedding(
         embedding = noisy_scale_coords(
             embedding, random_state, max_coord=10, noise=0.0001
         )
-    else:
+    else:  # only option left is a given numpy initialisation
         init_data = np.array(init)
         if len(init_data.shape) == 2:
             if np.unique(init_data, axis=0).shape[0] < init_data.shape[0]:
@@ -1170,12 +1197,13 @@ def simplicial_set_embedding(
         if output_dens:
             aux_data["rad_orig"] = ro
 
+    # Some linear scaling
     embedding = (
         10.0
         * (embedding - np.min(embedding, 0))
         / (np.max(embedding, 0) - np.min(embedding, 0))
     ).astype(np.float32, order="C")
-
+    euclidean_output = False
     if euclidean_output:
         embedding = optimize_layout_euclidean(
             embedding,
@@ -1393,7 +1421,7 @@ class UMAP(BaseEstimator):
 
     Finds a low dimensional embedding of the data that approximates
     an underlying manifold.
-
+º
     Parameters
     ----------
     n_neighbors: float (optional, default 15)
@@ -1723,7 +1751,7 @@ class UMAP(BaseEstimator):
         self.a = a
         self.b = b
 
-    def _validate_parameters(self):
+    def  _validate_parameters(self):
         if self.set_op_mix_ratio < 0.0 or self.set_op_mix_ratio > 1.0:
             raise ValueError("set_op_mix_ratio must be between 0.0 and 1.0")
         if self.repulsion_strength < 0.0:
@@ -2313,6 +2341,7 @@ class UMAP(BaseEstimator):
             ``target_metric_kwds``.
         """
 
+        # Check correct format of input data X
         X = check_array(X, dtype=np.float32, accept_sparse="csr", order="C")
         self._raw_data = X
 
@@ -2323,13 +2352,17 @@ class UMAP(BaseEstimator):
             self._a = self.a
             self._b = self.b
 
-        if isinstance(self.init, np.ndarray):
+        # Check if initial embedding points have been provided. If not, `init` is a string with the type of initial embedding to compute
+        if isinstance(self.init, np.ndarray): # Check if initial embedding was given
             init = check_array(self.init, dtype=np.float32, accept_sparse=False)
         else:
             init = self.init
 
+        # Set initial learning rate
         self._initial_alpha = self.learning_rate
 
+        # precomputed_knn (optional, default (None, None, None)
+        # Optional argument providing KNNs if they have been computed beforehand
         self.knn_indices = self.precomputed_knn[0]
         self.knn_dists = self.precomputed_knn[1]
         # #848: allow precomputed knn to not have a search index
@@ -2338,17 +2371,20 @@ class UMAP(BaseEstimator):
         else:
             self.knn_search_index = self.precomputed_knn[2]
 
+        # Validate parameters
         self._validate_parameters()
 
         if self.verbose:
             print(str(self))
 
+        # Parallelisation handling number of threads?
         self._original_n_threads = numba.get_num_threads()
         if self.n_jobs > 0 and self.n_jobs is not None:
             numba.set_num_threads(self.n_jobs)
 
         # Check if we should unique the data
         # We've already ensured that we aren't in the precomputed case
+        # Some data handling in case we say that our data isn't unique (i.e. repeated rows?)
         if self.unique:
             # check if the matrix is dense
             if self._sparse_data:
@@ -2406,7 +2442,7 @@ class UMAP(BaseEstimator):
         # initial sparsity check above
         if self._sparse_data and not X.has_sorted_indices:
             X.sort_indices()
-
+        # check and set random state
         random_state = check_random_state(self.random_state)
 
         if self.verbose:
@@ -2757,6 +2793,7 @@ class UMAP(BaseEstimator):
                 self.embedding_[disconnected_vertices] = np.full(
                     self.n_components, np.nan
                 )
+            # Reconstructs original data if it was not unique
 
             self.embedding_ = self.embedding_[inverse]
             if self.output_dens:
@@ -3479,3 +3516,6 @@ class UMAP(BaseEstimator):
         # remove extra whitespaces after a comma
         repr_ = re.sub(", +", ", ", repr_)
         return repr_
+
+class UMAPExt(UMAP):
+    pass
