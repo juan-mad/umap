@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9cb52758a1112944",
+        "id": "182ef84a8de7bf53",
         "type": "tabs",
         "children": [
           {
-            "id": "7dc9cea24aac67a6",
+            "id": "c15df961217fe966",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Implementation/umap.umap_.simplicial_set_embedding.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 540.5
   },
   "right": {
     "id": "b7d0ae732000b089",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Implementation/umap.umap_.simplicial_set_embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Implementation/umap.umap_.simplicial_set_embedding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Implementation/umap.umap_.simplicial_set_embedding.md"
+              }
             }
           }
         ]
@@ -138,16 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7dc9cea24aac67a6",
+  "active": "c15df961217fe966",
   "lastOpenFiles": [
-    "Implementation/umap.layouts._optimize_layout_generic_single_epoch.md",
-    "Implementation/Overview - Pseudocode.md",
+    "2023-04-10.md",
+    "Implementation/umap.umap_.UMAP()._fit_embed_data.md",
+    "Implementation/Untitled.canvas",
     "Implementation/umap.layouts.optimize_layout_generic.md",
+    "Implementation/umap.layouts._optimize_layout_generic_single_epoch.md",
+    "Implementation/umap.umap_.simplicial_set_embedding.md",
+    "Implementation/Overview - Pseudocode.md",
+    "Implementation/umap.umap_.compute_membership_strengths.md",
     "Implementation/umap.umap_.fuzzy_simplicial_set.md",
     "Implementation/umap.umap_.UMAP().make_epochs_per_sample.md",
-    "Implementation/umap.umap_.simplicial_set_embedding.md",
     "Implementation/umap.umap_.UMAP().fit.md",
-    "Implementation/umap.umap_.UMAP()._fit_embed_data.md",
-    "Implementation/umap.umap_.smooth_knn_dist.md"
+    "Esquema TFM.md",
+    "Implementation/umap.umap_.smooth_knn_dist.md",
+    "Implementation/How to use UMAP.md"
   ]
 }

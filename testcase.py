@@ -62,9 +62,10 @@ def main():
     # If given a list as the parameter n_epochs, then we have all of the embeddings in:
     # mapper.embedding_list
 
-    epochs = 500
+    epochs = [10,20,30]
     # epochs = None
-    mapper = umap.UMAP(random_state = 42, n_epochs=epochs, init=orig_data, negative_sample_rate=20)
+    mapper = umap.UMAP(random_state = 42, n_epochs=epochs, init=orig_data, negative_sample_rate=20,
+                       force_no_optimization=True)
     mapper.fit(orig_data)
     embedding = mapper.transform(orig_data)
 

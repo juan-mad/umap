@@ -588,7 +588,6 @@ def optimize_layout_generic(
     embedding: array of shape (n_samples, n_components)
         The optimized embedding.
     """
-
     dim = head_embedding.shape[1]
     alpha = initial_alpha
 
@@ -603,6 +602,12 @@ def optimize_layout_generic(
 
     if tqdm_kwds is None:
         tqdm_kwds = {}
+
+    epochs_list = None
+    embedding_list = []
+    if isinstance(n_epochs, list):
+        epochs_list = n_epochs
+        n_epochs = max(epochs_list)
 
     if "disable" not in tqdm_kwds:
         tqdm_kwds["disable"] = not verbose
@@ -631,7 +636,17 @@ def optimize_layout_generic(
         )
         alpha = initial_alpha * (1.0 - (float(n) / float(n_epochs)))
 
-    return head_embedding
+        if verbose and n % int(n_epochs / 10) == 0:
+            print("\tcompleted ", n, " / ", n_epochs, "epochs")
+
+        if epochs_list is not None and n in epochs_list:
+            embedding_list.append(head_embedding.copy())
+
+    # Add the last embedding to the list as well
+    if epochs_list is not None:
+        embedding_list.append(head_embedding.copy())
+
+    return head_embedding if epochs_list is None else embedding_list
 
 
 def _optimize_layout_inverse_single_epoch(

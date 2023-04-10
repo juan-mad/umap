@@ -1203,7 +1203,7 @@ def simplicial_set_embedding(
         * (embedding - np.min(embedding, 0))
         / (np.max(embedding, 0) - np.min(embedding, 0))
     ).astype(np.float32, order="C")
-    euclidean_output = False
+
     if euclidean_output:
         embedding = optimize_layout_euclidean(
             embedding,
@@ -1705,6 +1705,7 @@ class UMAP(BaseEstimator):
         output_dens=False,
         disconnection_distance=None,
         precomputed_knn=(None, None, None),
+        force_no_optimization=False
     ):
         self.n_neighbors = n_neighbors
         self.metric = metric
@@ -1750,6 +1751,8 @@ class UMAP(BaseEstimator):
 
         self.a = a
         self.b = b
+
+        self.force_no_optimization = force_no_optimization
 
     def  _validate_parameters(self):
         if self.set_op_mix_ratio < 0.0 or self.set_op_mix_ratio > 1.0:
@@ -2831,7 +2834,7 @@ class UMAP(BaseEstimator):
             self.output_dens,
             self._output_distance_func,
             self._output_metric_kwds,
-            self.output_metric in ("euclidean", "l2"),
+            self.output_metric in ("euclidean", "l2") if not self.force_no_optimization else False,
             self.random_state is None,
             self.verbose,
             tqdm_kwds=self.tqdm_kwds,
@@ -3060,7 +3063,7 @@ class UMAP(BaseEstimator):
         #     tuple(self.output_metric_kwds.values()),
         # )
 
-        if self.output_metric == "euclidean":
+        if self.output_metric == "euclidean" and not self.force_no_optimization:
             embedding = optimize_layout_euclidean(
                 embedding,
                 self.embedding_.astype(np.float32, copy=True),  # Fixes #179 & #217,
