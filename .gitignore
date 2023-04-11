@@ -9,6 +9,7 @@ venv
 .idea/workspace.xml
 .idea/dictionaries
 .idea/other.xml
+*.png
 
 # Mac Finder layout
 .DS_Store

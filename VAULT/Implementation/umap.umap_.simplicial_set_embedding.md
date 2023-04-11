@@ -37,7 +37,7 @@ Function:
 - Some "normalisation" is done: according to the number of maximum epochs to consider, those *edges with a weight lower than the maximum weight divided by the max number of epochs* are **set to zero**.
 - Generate initial embedding coordinates according to the given initialisation method given as an argument.
 - `epochs_per_sample = ` [[umap.umap_.UMAP().make_epochs_per_sample]] #question
-- There is linear scaling done on the embedding coordinates (which, are this point, is just the initialization)
+- There is linear scaling done on the embedding coordinates (which, at this point, is just the initialization)
 - Optimise the embedding layout, with an improved / faster version for the euclidean case
 - [[umap.layouts.optimize_layout_generic]]
 - [[umap.umap_.UMAP().optimize_layout_euclidean]]
