@@ -1,6 +1,6 @@
-Perform a fuzzy simplicial set embedding, using a specified initialisation method and then minimizing the fuzzy set cross entropy between the 1-skeletons of the high and low dimensional fuzzy simplicial sets.
+thisPerform a fuzzy simplicial set embedding, using a specified initialisation method and then minimizing the fuzzy set cross entropy between the 1-skeletons of the high and low dimensional fuzzy simplicial sets.
 
-Parameters:
+######  Parameters:
 - `data`: source data to be embedded by UMAP, 
 - `graph`: sparse matrix with the 1-skeleton of the high-dim fuzzy simplicial set, representing the weighted adjacency matrix
 - `n_components`: dimension of the euclidean space into which to embed the data
@@ -27,22 +27,24 @@ Parameters:
 - (opt, False) `verbose`
 - `tqdm_kwds`
 
-Returns:
+###### Returns:
 - `embedding`: the optimised of `graph` into an `n_components`-dim euclidean space.
 - `aux_data`: auxiliary output returned with the embedding
 
-Function:
+###### Function:
 - Makes sure that the original data graph is stored as a sparse matrix
 - Set number of maximum epochs
-- Some "normalisation" is done: according to the number of maximum epochs to consider, those *edges with a weight lower than the maximum weight divided by the max number of epochs* are **set to zero**.
+- Some "normalisation" is done: according to the number of maximum epochs to consider, those *edges with a weight lower than the maximum weight divided by the max number of epochs* are **set to zero**. ([[Changes with respect to the original paper|changes]])
 - Generate initial embedding coordinates according to the given initialisation method given as an argument.
-- `epochs_per_sample = ` [[umap.umap_.UMAP().make_epochs_per_sample]] #question
+- `epochs_per_sample = ` [[umap.umap_.UMAP().make_epochs_per_sample]]
 - There is linear scaling done on the embedding coordinates (which, at this point, is just the initialization)
 - Optimise the embedding layout, with an improved / faster version for the euclidean case
 - [[umap.layouts.optimize_layout_generic]]
 - [[umap.umap_.UMAP().optimize_layout_euclidean]]
 - `aux_data` is stored
 - Return `embedding` and `aux_data`
+
+#UMAP_algorithm 
 
 ------------
 
@@ -91,7 +93,7 @@ If we were given a list of epochs in `n_epochs`, we define `n_epochs_max` as the
 
 	graph.data[graph.data < (graph.data.max() / float(default_epochs))] = 0.0
 
-What these lines do is: let $e_{ij}$ be an edge connecting $i$ to $j$ . If $$e_{ij} < \frac{\max\limits_{s,t}{e_{st}}}{\max(10, \texttt{n\_epochs\_max})}$$ then, $e_{ij}$ is set to 0. Afterwards, remove all entries with a value of 0 (we are using a sparse matrix type so this saves memory).
+What these lines do is: let $e_{ij}$ be an edge connecting $i$ to $j$ . If $$e_{ij} < \frac{\max\limits_{s,t}{e_{st}}}{\max(10, \texttt{n\_epochs\_max})}$$ (WRONG, NOT 10: see ([[Changes with respect to the original paper|changes]])) then, $e_{ij}$ is set to 0. Afterwards, remove all entries with a value of 0 (we are using a sparse matrix type so this saves memory).
 
 ~
 *Initialisation* -> stored in `embedding`, which is a `(graph.shape[0], n_components)` numpy array (that is, with as many rows as vertices and with as many columns as the dimension of the embedding space)

@@ -12,3 +12,4 @@ Function:
 
 How is, in this sense, the array `result` an *array of number of epochs per sample, one for each 1-simplex i.e. one for each edge*? -> It appears that, in a sense, is the number of epochs that must pass between samplings.
 
+#UMAP_algorithm 

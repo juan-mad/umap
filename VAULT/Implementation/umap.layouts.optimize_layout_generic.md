@@ -67,3 +67,5 @@ For each epoch $n$ from 0 to `n_epochs`:
  - Set the new learning rate to `alpha = initial_alpha * (1 - n / n_epochs)`
 
 Then, return `head_embedding`.
+
+#UMAP_algorithm 

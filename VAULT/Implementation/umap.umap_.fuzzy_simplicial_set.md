@@ -9,3 +9,5 @@ Given a set of data X, a neighborhood size, and a measure of distance compute th
 - Return distances if asked to.
 
 `return result, sigmas, rhos[, dists]`
+
+#UMAP_algorithm 

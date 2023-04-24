@@ -13,7 +13,7 @@ Returns:
 
 Function:
 
-- `target` $=\log_2(k)\times$ `bandwidth`
+- `target` $=\log_2(k)\times$ `bandwidth` ([[Changes with respect to the original paper|changes]])
 - Initialise matrix of zeroes for the $\rho$'s, called `rho`, and for the $\sigma$'s, called `result`
 - Compute the mean of all the distances -> `mean_distances` -> scalar! (?)
 - For each sample point
@@ -21,7 +21,7 @@ Function:
 	- Take the row of distances to neighbors for this sample point -> `ith_distances`
 	- Consider the subarray of non-zero distances -> `non_zero_dists`
 
-	- In order to ensure local connectivity of the manifold, according to the parameter `local_connectivity`, $\rho_i$ is chosen so that $\lfloor$`local_connectivity`$\rfloor$ weights in the graph will be equal to 1. In the case that `local_connectivity` is not a whole number, its value is linearly interpolated between the distance to the  $\lfloor$ `local_connectivity` $\rfloor$-neighbor and the next.
+	- In order to ensure local connectivity of the manifold, according to the parameter `local_connectivity`, $\rho_i$ is chosen so that $\lfloor$`local_connectivity`$\rfloor$ weights in the graph will be equal to 1. In the case that `local_connectivity` is not a whole number, its value is linearly interpolated between the distance to the  $\lfloor$ `local_connectivity` $\rfloor$-neighbor and the next. ([[Changes with respect to the original paper|changes]])
 
 	- Binary search for $\sigma_i$:
 	-  Initialise values for binary search for $\sigma_i$ :`lo = 0.0, hi = NPY_INFINITY, mid = 1.0`
@@ -48,3 +48,5 @@ Function:
 	- $\sigma_i$ is set to `mid` or to a low bound relative to the mean of distances
 
 `return result, rho`
+
+#UMAP_algorithm 
