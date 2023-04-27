@@ -12,6 +12,7 @@ venv
 *.png
 *.csv
 *.gif
+*.npy
 
 # Mac Finder layout
 .DS_Store

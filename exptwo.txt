@@ -1,0 +1,1202 @@
+Remember not to call this function if you already added noise to the 2D curve!
+Working on: {'min_dist': 0.1, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 5, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 10, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 15, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 20, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 25, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.1, 'n_neighbors': 30, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 5, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 10, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 15, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 20, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 25, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.2, 'n_neighbors': 30, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 5, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 10, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 15, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 20, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 25, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.30000000000000004, 'n_neighbors': 30, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.4, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 5, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.4, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 10, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.4, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 15, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.4, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 20, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.4, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 25, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.4, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.4}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.4, 'n_neighbors': 30, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.5, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.5, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 5, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.5, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.5, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 10, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.5, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.5, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 15, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.5, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.5, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 20, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.5, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.5, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 25, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.5, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.5, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.5, 'n_neighbors': 30, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.6, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.6, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 5, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.6, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.6, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 10, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.6, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.6, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 15, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.6, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.6, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 20, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.6, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.6, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 25, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.6, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.6, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.6000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.6, 'n_neighbors': 30, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 5, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 10, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 15, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 20, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 25, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.7000000000000001, 'n_neighbors': 30, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 5, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 10, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 15, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 20, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 25, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.8, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.8, 'n_neighbors': 30, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.8}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 5, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.8}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 10, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.8}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 15, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.8}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 20, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.8}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 25, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.8}
+Encountered error
+Working on: {'min_dist': 0.9, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 0.9, 'n_neighbors': 30, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 5, 'random_state': 42, 'spread': 0.8}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 5, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 5, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 10, 'random_state': 42, 'spread': 0.8}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 10, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 10, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 15, 'random_state': 42, 'spread': 0.8}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 15, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 15, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 20, 'random_state': 42, 'spread': 0.8}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 20, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 20, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 25, 'random_state': 42, 'spread': 0.8}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 25, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 25, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.2}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.4}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.6000000000000001}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 30, 'random_state': 42, 'spread': 0.8}
+Encountered error
+Working on: {'min_dist': 1.0, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.0}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.2}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.4000000000000001}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.6}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 30, 'random_state': 42, 'spread': 1.8}
+Finished; trying next set of HPs
+Working on: {'min_dist': 1.0, 'n_neighbors': 30, 'random_state': 42, 'spread': 2.0}
+Finished; trying next set of HPs
+Finished all
