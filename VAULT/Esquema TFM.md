@@ -81,3 +81,4 @@ Hyper-parameter tuning / selection. How they affect the
 - Motivation, original examples, etc
 
 
+Experimentos numéricos dentro de cada sección, para el fin que busquemos en cada sección (comparación con t-SNE, funcionamiento propio, fallos, etc)

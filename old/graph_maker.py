@@ -7,8 +7,6 @@ import pandas as pd
 from PIL import Image
 import glob
 
-
-
 from get_data import get_penguins
 
 
@@ -19,12 +17,12 @@ def make_graph(data=None, init=None, labels=None, name=None, data_path=None, epo
     # Set up directories for image saving
     directory = os.path.dirname(__file__)
     if name is None:
-        res_dir = os.path.join(directory, "graphs_no_name/")
+        res_dir = os.path.join(directory, "../graphs_no_name/")
     else:
         res_dir = os.path.join(directory, "graphs_" + name + "/")
     if not os.path.isdir(res_dir):
         os.makedirs(res_dir)
-    img_dir = os.path.join(res_dir, "images/")
+    img_dir = os.path.join(res_dir, "../images/")
     if not os.path.isdir(img_dir):
         os.makedirs(img_dir)
     gif_dir = os.path.join(res_dir, "gif/")
@@ -64,7 +62,7 @@ def make_graph(data=None, init=None, labels=None, name=None, data_path=None, epo
             fig, ax = plt.subplots()
             scatter = ax.scatter(x=intermediate_embeddings[k][:, 0], y=intermediate_embeddings[k][:, 1],
                                  c=labels, cmap=plt.get_cmap(cmap))
-            legend1 = ax.legend(*scatter.legend_elements(), title="Classes", loc="upper right", bbox_to_anchor=(0,1))
+            legend1 = ax.legend(*scatter.legend_elements(), title="Classes", loc="upper right", bbox_to_anchor=(0, 1))
             ax.add_artist(legend1)
 
             # plt.figure(figsize=(7, 6))

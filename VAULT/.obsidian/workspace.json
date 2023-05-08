@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "182ef84a8de7bf53",
+        "id": "78dbd12ad6dabdca",
         "type": "tabs",
         "children": [
           {
-            "id": "c15df961217fe966",
+            "id": "8596b320ff8e2714",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Implementation/umap.umap_.simplicial_set_embedding.md",
+                "file": "Implementation/umap.layouts.optimize_layout_generic.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,13 +64,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "b60018e39a407be7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 540.5,
-    "collapsed": true
+    "width": 390.5
   },
   "right": {
     "id": "b7d0ae732000b089",
@@ -86,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Implementation/umap.umap_.simplicial_set_embedding.md",
+                "file": "Implementation/umap.layouts.optimize_layout_generic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Implementation/umap.umap_.simplicial_set_embedding.md",
+                "file": "Implementation/umap.layouts.optimize_layout_generic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,11 +133,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Implementation/umap.umap_.simplicial_set_embedding.md"
+                "file": "Implementation/umap.layouts.optimize_layout_generic.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,21 +155,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c15df961217fe966",
+  "active": "8596b320ff8e2714",
   "lastOpenFiles": [
-    "2023-04-10.md",
-    "Implementation/umap.umap_.UMAP()._fit_embed_data.md",
-    "Implementation/Untitled.canvas",
-    "Implementation/umap.layouts.optimize_layout_generic.md",
-    "Implementation/umap.layouts._optimize_layout_generic_single_epoch.md",
     "Implementation/umap.umap_.simplicial_set_embedding.md",
-    "Implementation/Overview - Pseudocode.md",
-    "Implementation/umap.umap_.compute_membership_strengths.md",
-    "Implementation/umap.umap_.fuzzy_simplicial_set.md",
     "Implementation/umap.umap_.UMAP().make_epochs_per_sample.md",
-    "Implementation/umap.umap_.UMAP().fit.md",
+    "Implementation/Changes with respect to the original paper.md",
     "Esquema TFM.md",
+    "Experiment Ideas.md",
+    "Implementation/umap.umap_.UMAP().md",
+    "On UMAP's true loss function.md",
+    "LargeVis.md",
+    "Implementation/How to use UMAP.md",
+    "Implementation/umap.layouts._optimize_layout_generic_single_epoch.md",
     "Implementation/umap.umap_.smooth_knn_dist.md",
-    "Implementation/How to use UMAP.md"
+    "Implementation/umap.layouts.optimize_layout_generic.md",
+    "Implementation/umap.umap_.UMAP()._fit_embed_data.md",
+    "changes.md",
+    "Implementation/umap.umap_.UMAP().fit.md",
+    "Implementation/umap.umap_.fuzzy_simplicial_set.md",
+    "Implementation/umap.umap_.compute_membership_strengths.md",
+    "Implementation/Overview - Pseudocode.md",
+    "2023-04-10.md",
+    "Implementation/Untitled.canvas"
   ]
 }

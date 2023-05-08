@@ -133,7 +133,7 @@ def _optimize_layout_euclidean_single_epoch(
 
             if dist_squared > 0.0:
                 grad_coeff = -2.0 * a * b * pow(dist_squared, b - 1.0)
-                grad_coeff /= a * pow(dist_squared, b) + 1.0 # / Dividido entre 1+distancia ** elevado a b **??
+                grad_coeff /= a * pow(dist_squared, b) + 1.0
             else:
                 grad_coeff = 0.0
 
