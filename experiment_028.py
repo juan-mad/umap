@@ -3,14 +3,15 @@ import pickle
 from experiment_functions import *
 
 # EXP_NAME = "experiment_" + datetime.datetime.now().strftime('%Y-%m-%d_%H:%M:%S')
-EXP_NAME = "circle_dim_5_std_0_1_sample_5000_desp"
+EXP_NAME = "exp_hypercube_1_sample_5000_dim_10_std_0_5_spectral"
 RESULT_PATH = "results/"
 SAMPLE_SIZE = 5000
 RADIUS = 1
-STD = 0.1
+EXPDESIGN_PATH = "exp_design/"
+STD = 0.5
 
 
-def run_experiment():
+def run_experiment(jobs=None):
     """"""
     exp_path = RESULT_PATH + EXP_NAME
     log_path = exp_path + f"/log_{EXP_NAME}.txt"
@@ -22,8 +23,7 @@ def run_experiment():
     # Create manifold to be embedded
 
     manifold, sample = generate_2d_circle(sample_size=SAMPLE_SIZE, a=1, seed=rng, noise=0.05)
-    manifold = add_noise_in_other_dim(manifold, noise=STD, dims=5, rng=rng)
-    manifold[:, 2:] += 1
+    manifold = add_noise_in_other_dim(manifold, noise=STD, dims=10, rng=rng)
 
     # Save original manifold
     np.save(exp_path + "/manifold.npy", manifold)
@@ -32,12 +32,12 @@ def run_experiment():
 
     # Get all set of parameters to consider in the experiment as a list of dictionaries
     # Each dictionary will contain the parameter values as key-value pairs
-    experiment_list = [
-        {"n_neighbors": n_n} for n_n in range(15, 96, 10)
-    ]  # etc
+
+    with open(EXPDESIGN_PATH + "hypercube_1.pkl", "rb") as f:
+        experiment_list = pickle.load(f)
 
     n_epochs = list(range(0, 5001, 1000))
-    init = "random"
+    init = "spectral"
 
     # Now we run the experiment
     # Set up log file
@@ -50,6 +50,8 @@ def run_experiment():
             params["n_epochs"] = n_epochs
         if "init" not in params.keys():
             params["init"] = init
+        if jobs is not None:
+            params["n_jobs"] = jobs
 
         with warnings.catch_warnings(record=True) as w:
             embeddings = generate_embeddings(params, manifold)
@@ -111,7 +113,10 @@ def create_report():
 
 if __name__ == "__main__":
     if len(sys.argv) == 1 or sys.argv[1] == "run":
-        run_experiment()
+        if len(sys.argv) == 2:
+            run_experiment()
+        elif sys.argv[2] == "jobs":
+            run_experiment(jobs=int(sys.argv[3]))
 
     if sys.argv[1] == "report":
         create_report()
