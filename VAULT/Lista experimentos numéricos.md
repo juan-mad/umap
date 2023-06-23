@@ -219,6 +219,9 @@ Experiment 19
 
 ### std=0.1
 ![[report_circle_dim_5_std_0_1_sample_5000.png]]
+![[fast_tsne_plot_p_30.png]]
+
+![[fast_tsne_plot_p_60.png]]
 
 ### std=0.5
 ![[report_circle_dim_5_std_0_5_sample_5000.png]]

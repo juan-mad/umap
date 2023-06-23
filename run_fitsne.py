@@ -1,4 +1,4 @@
-import bhtsne.bhtsne as bhtsne
+from fitsne.fast_tsne import fast_tsne
 import numpy as np
 import time
 import pickle
@@ -6,14 +6,14 @@ import sys, os
 from experiment_functions import *
 
 """Reads data from a manifold.npy file in the specified directory,
-applies t-SNE dimension reduction to the specified dimensions with the
+applies FIt-SNE dimension reduction to the specified dimensions with the
 specified perplexity and writes the resulting embedding into another .npy file.
 A """
 
 
-def apply_tsne(directory, perplexity=None, random_seed=42):
+def apply_fast_tsne(directory, perplexity=None, random_seed=42):
     dir_path = os.getcwd() + "/results/" + directory
-    log_path = dir_path + "/log_tsne.txt"
+    log_path = dir_path + "/log_fast_tsne.txt"
 
     # Load original data
     logging.basicConfig(filename=log_path, level=logging.INFO,
@@ -32,25 +32,26 @@ def apply_tsne(directory, perplexity=None, random_seed=42):
         # Create embedding
         if perplexity is not None:
             start = time()
-            embedding = bhtsne.run_bh_tsne(manifold, perplexity=perplexity, randseed=random_seed,
-                                           initial_dims=manifold.shape[1])
+            embedding = fast_tsne(X=manifold, perplexity=perplexity, seed=random_seed,
+                                  map_dims=2)
             end = time()
         else:
             start = time()
-            embedding = bhtsne.run_bh_tsne(manifold, randseed=random_seed,
-                                           initial_dims=manifold.shape[1])
+            embedding = fast_tsne(X=manifold, seed=random_seed,
+                                  map_dims=2)
             end = time()
 
-        logging.info(f"Barnes-Hut t-SNE finished in {end-start} seconds")
+        logging.info(f"FIt-SNE finished in {end - start} seconds")
 
         for warning in w:
             logging.warning(str(warning.message))
 
-        np.save(dir_path + f"/tsne_embedding_p_{perplexity}.npy", embedding)
+        np.save(dir_path + f"/fast_tsne_embedding_p_{perplexity}.npy", embedding)
 
         sample = np.load(dir_path + "/sample.npy")
-        fig, ax = plot_2d_curve(manifold, sample)
-        plt.savefig(dir_path + f"/tsne_plot_p_{perplexity}.png")
+        fig, ax = plot_2d_curve(embedding, sample)
+        plt.savefig(dir_path + f"/fast_tsne_plot_p_{perplexity}.png")
+
 
 if __name__ == "__main__":
     """
@@ -58,6 +59,7 @@ if __name__ == "__main__":
         directory: directory where the data is and where to save the result
         p: perplexity
     """
+
     directory = sys.argv[1]
     if len(sys.argv) >= 3:
         p = sys.argv[2]
@@ -68,4 +70,4 @@ if __name__ == "__main__":
     else:
         random_seed = 42
 
-    apply_tsne(directory, perplexity=p, random_seed=random_seed)
+    apply_fast_tsne(directory, perplexity=p, random_seed=random_seed)

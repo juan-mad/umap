@@ -1,5 +1,5 @@
 import os
-from run_tsne import apply_tsne
+from run_fitsne import apply_fast_tsne
 import sys
 
 
@@ -21,11 +21,13 @@ if __name__ == "__main__":
         p = None
 
     for fd in folders:
-        if "100000" not in fd:
+        if fd == "experiment_000" or "100000" in fd:
             print(f"Skipped {fd}")
             continue
-        print(f"Starting experiment {fd}")
-        if p is None:
-            apply_tsne(fd)
         else:
-            apply_tsne(fd, perplexity=p)
+            print(f"Starting experiment {fd}")
+            if p is None:
+                apply_fast_tsne(fd)
+            else:
+                apply_fast_tsne(fd, perplexity=p)
+
