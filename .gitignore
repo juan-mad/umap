@@ -22,6 +22,9 @@ venv
 *.pkl
 *.sh
 
+bhtsne/*
+fitsne/*
+
 # Mac Finder layout
 .DS_Store
 
