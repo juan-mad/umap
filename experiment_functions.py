@@ -144,7 +144,7 @@ def generate_2d_involute(sample_size=200, a=1, loops=10, seed=None, noise=0.01):
     return curve, sample
 
 
-def generate_2d_circle(sample_size: object = 200, a: object = 1, seed: object = None, noise: object = 0.01) -> object:
+def generate_2d_circle(sample_size=200, a=1, seed=None, noise=0.01):
     """ Returns the curve of a circle as well as the sample in parameter space
     Args:
         sample_size (int): number of points to generate

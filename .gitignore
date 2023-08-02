@@ -13,6 +13,14 @@ venv
 *.csv
 *.gif
 *.npy
+*.pa
+*.txt
+./images/*
+*.zip
+*.pdf
+*.jpg
+*.pkl
+*.sh
 
 # Mac Finder layout
 .DS_Store
@@ -30,3 +38,18 @@ umap_learn.egg-info
 # docs
 doc/auto_examples
 doc/_build
+synth_data_gen/*
+wandb/*
+1.counts.tsv
+Exp file creator.ipynb
+ExpNB.ipynb
+runexp.sh
+Untitled.ipynb
+Untitled1.ipynb
+Untitled2.ipynb
+Untitled3.ipynb
+Untitled4.ipynb
+Untitled5.ipynb
+Untitled6.ipynb
+exp_design/exp_design_r.ipynb
+images/NeurIPS-2021-on-umaps-true-loss-function-Bibtex.bib

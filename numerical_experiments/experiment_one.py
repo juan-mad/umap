@@ -239,11 +239,8 @@ def exp_one(exp_name, sample_size, curve_type):
 
 
 if __name__ == "__main__":
-    experiment_name = sys.argv[1]
-    sample_size = int(sys.argv[2])
-    curve_type = sys.argv[3]
+    experiment_name = 0
+    sample_size = 0
+    curve_type = 0
 
-    if not os.path.exists("./" + experiment_name):
-        os.makedirs("./" + experiment_name)
-
-    exp_one(experiment_name, sample_size, curve_type)
+    exp_one("aaa", 100, "astroid")

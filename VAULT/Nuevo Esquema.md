@@ -11,9 +11,17 @@
 
 # 3. A critical view of UMAP
 ## UMAP's implementation
-### Sampling used
 ### Changes not mentioned in paper
 ## UMAP's true loss function
+### Sampling used
+### Efective loss function
 ## Numerical experiments
-### UMAP does not find minimiser of theoretical loss function
+
+
+# 4. UMAP's extensions
+densMAP, etc.
+Vendría aquí el uso en otras variedades (esfera, toro, etc?)
+
+# 5. UMAP's corrected loss function
+Use the additional term added by Damrich et al. and compute effective loss functions (numerical experiments)
 

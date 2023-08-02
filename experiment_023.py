@@ -34,7 +34,7 @@ def run_experiment(jobs=None):
     # Each dictionary will contain the parameter values as key-value pairs
 
     with open(EXPDESIGN_PATH + "hypercube_1.pkl", "rb") as f:
-        experiment_list = pickle.load(f)
+            experiment_list = pickle.load(f)
 
     n_epochs = list(range(0, 5001, 1000))
     init = "random"

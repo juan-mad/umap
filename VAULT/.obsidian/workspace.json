@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "cd3f341a809b5974",
+        "id": "907b27313e9fd69e",
         "type": "tabs",
         "children": [
           {
-            "id": "a99885774d7af435",
+            "id": "e67838ec25b34be3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Implementation/umap.umap_.UMAP().md",
+                "file": "Implementation/umap.umap_.smooth_knn_dist.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf09b3d329aa192b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Implementation/umap.layouts.optimize_layout_generic.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 446.5
   },
   "right": {
     "id": "b7d0ae732000b089",
@@ -94,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Implementation/umap.umap_.UMAP().md",
+                "file": "Implementation/umap.umap_.smooth_knn_dist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Implementation/umap.umap_.UMAP().md",
+                "file": "Implementation/umap.umap_.smooth_knn_dist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Implementation/umap.umap_.UMAP().md"
+                "file": "Implementation/umap.umap_.smooth_knn_dist.md"
               }
             }
           }
@@ -143,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -156,41 +167,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a99885774d7af435",
+  "active": "e67838ec25b34be3",
   "lastOpenFiles": [
-    "TODO.md",
-    "Lista experimentos numéricos.md",
-    "fast_tsne_plot_p_60.png",
-    "fast_tsne_plot_p_30.png",
-    "report_circle_dim_5_std_0_1_sample_5000.png",
-    "report_circle_dim_5_std_1_sample_5000.png",
-    "report_experiment_circle_a_1_sample_5000.png",
-    "Métricas.md",
-    "On UMAP's true loss function.md",
-    "Nuevo Esquema.md",
-    "Implementation/umap.layouts._optimize_layout_generic_single_epoch.md",
-    "Implementation/Overview - Pseudocode.md",
-    "Implementation/How to use UMAP.md",
-    "Implementation/Changes with respect to the original paper.md",
-    "LargeVis.md",
-    "Experiment Ideas.md",
-    "Esquema TFM.md",
-    "Implementation/umap.umap_.UMAP().md",
-    "report_circle_dim_5_std_4_sample_5000.png",
-    "report_circle_dim_5_std_0_5_sample_5000.png",
-    "report_exp_hypercube_0_sample_20000.png",
-    "report_exp_hypercube_0_sample_20000_spectral.png",
-    "report_experiment_circle_a_1_sample_100000_spectral.png",
-    "Implementation/umap.layouts.optimize_layout_generic.md",
-    "Implementation/umap.umap_.simplicial_set_embedding.md",
-    "Implementation/umap.umap_.UMAP().make_epochs_per_sample.md",
-    "Implementation/umap.umap_.smooth_knn_dist.md",
     "Implementation/umap.umap_.UMAP()._fit_embed_data.md",
-    "changes.md",
+    "Implementation/umap.layouts.optimize_layout_generic.md",
+    "Implementation/umap.umap_.UMAP().make_epochs_per_sample.md",
+    "Implementation/umap.layouts._optimize_layout_generic_single_epoch.md",
     "Implementation/umap.umap_.UMAP().fit.md",
+    "Implementation/umap.umap_.UMAP().md",
     "Implementation/umap.umap_.fuzzy_simplicial_set.md",
+    "Métricas.md",
+    "Implementation/umap.umap_.simplicial_set_embedding.md",
+    "Implementation/Changes with respect to the original paper.md",
+    "Implementation/umap.umap_.smooth_knn_dist.md",
     "Implementation/umap.umap_.compute_membership_strengths.md",
-    "2023-04-10.md",
+    "Implementation/Overview - Pseudocode.md",
+    "LargeVis.md",
+    "Lista experimentos numéricos.md",
+    "Nuevo Esquema.md",
+    "Esquema TFM.md",
+    "Introduction.md",
+    "Experiment Ideas.md",
+    "Implementation/How to use UMAP.md",
+    "Synthetic Data Generation/Datasets.md",
+    "Synthetic Data Generation/1-dimensional manifolds.md",
+    "TODO.md",
+    "On UMAP's true loss function.md",
+    "Synthetic Data Generation/2-dimensional manifolds.md",
+    "Synthetic Data Generation",
+    "images/report_circle_dim_5_std_0_1_sample_5000.png",
+    "images/fast_tsne_plot_p_30.png",
+    "images/fast_tsne_plot_p_60.png",
+    "images",
+    "images/report_circle_dim_5_std_1_sample_5000.png",
+    "images/report_experiment_circle_a_1_sample_5000.png",
+    "images/report_circle_dim_5_std_4_sample_5000.png",
+    "images/report_circle_dim_5_std_0_5_sample_5000.png",
+    "images/report_exp_hypercube_0_sample_20000.png",
+    "images/report_exp_hypercube_0_sample_20000_spectral.png",
+    "images/report_experiment_circle_a_1_sample_100000_spectral.png",
+    "changes.md",
     "Implementation/Untitled.canvas"
   ]
 }

@@ -1,0 +1,6 @@
+- Square of points coloured by an image
+- Clusters of 2-dim Gaussian distributions
+- Swiss roll
+- Moebius strip
+- Star
+- 

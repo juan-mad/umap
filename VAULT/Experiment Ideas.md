@@ -1,5 +1,5 @@
-# Hyper parameters
-- Study effect of main hyperparameters such as `n_neighbor`, `min_dist`, `spread` and `n_epochs` among others.
+ # Hyper parameters
+- Study effect of main hyperparameters such as `n_neighbor`, `min_dist`, `spread` , the metric used, and `n_epochs` among others.
 - `n_epochs` and `learning_rate` are related to each other: `learning_rate` decreases from its inital value towards 0 in steps of size `learning_rate / n_epochs`.
 - Consider size of the dataset, that is, number of samples, as a factor as well.
 - Consider the scale of the dataset. Distance is affected by scale, and by default UMAP initialises every embedding inside $[0,10]^d$ where $d$ is the embedding dimension.
